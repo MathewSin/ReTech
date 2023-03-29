@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <!--<meta name=description content="This site was generated with Anima. www.animaapp.com"/>-->
+    <!-- <link rel="shortcut icon" type=image/png href="https://animaproject.s3.amazonaws.com/home/favicon.png" /> -->
+    <meta name="viewport" content="width=1440, maximum-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="css/desktop-2.css" />
+    <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
+    <link rel="stylesheet" type="text/css" href="css/globals.css" />
+  </head>
+  <body style="margin: 0; background: #000f39">
+    <input type="hidden" id="anPageName" name="page" value="desktop-2" />
+    <div class="container-center-horizontal">
+      <form class="desktop-2 screen" name="form1" action="form1" method="post">
+        <div class="overlap-group4">
+          <div class="ellipse-2 ellipse"></div>
+          <div class="ellipse-1 ellipse"></div>
+          <img
+            class="screenshot__72_-removebg-1"
+            src="img/screenshot--72--removebg-1-2@2x.png"
+            alt="Screenshot__72_-removebg 1"
+          />
+          <div class="rectangle-30"></div>
+          <div class="group-51 group">
+            <h1 class="title roboto-bold-white-47px">Login</h1>
+            <div class="overlap-group2">
+              <input
+                class="username-or-email roboto-bold-midnight-16px"
+                name="usernameoremail"
+                placeholder="Username or Email"
+                type="text"
+                required
+              />
+            </div>
+            <div class="overlap-group3">
+              <input
+                class="password roboto-bold-midnight-16px"
+                name="password"
+                placeholder="Password"
+                type="password"
+                required
+              />
+            </div>
+            <div class="forgot-password">FORGOT PASSWORD?</div>
+            <div class="group-container group">
+              <a href="Dashboard.html">
+                <div class="group-4 group">
+                  <div class="overlap-group"><div class="login outfit-semi-bold-white-20px">LOGIN</div></div>
+                </div></a
+              ><a href="desktop-3.html">
+                <div class="group-4 group">
+                  <div class="overlap-group1"><div class="sign-up outfit-semi-bold-white-20px">SIGN UP</div></div>
+                </div></a
+              >
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+    <script>
+      /* Copyright (c) 2016 Tobias Buschor https://goo.gl/gl0mbf | MIT License https://goo.gl/HgajeK */
+
+      if (!HTMLFormElement.prototype.reportValidity) {
+        HTMLFormElement.prototype.reportValidity = function () {
+          if (this.checkValidity()) return true;
+          var btn = document.createElement("button");
+          this.appendChild(btn);
+          btn.click();
+          this.removeChild(btn);
+          return false;
+        };
+      }
+
+      function SubmitForm(form_name) {
+        var form = document.getElementsByName(form_name)[0];
+        if (form.reportValidity()) {
+          form.submit();
+          if (window.submitted) window.submitted();
+        }
+      }
+    </script>
+  </body>
+</html>

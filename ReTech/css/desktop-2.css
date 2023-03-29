@@ -1,0 +1,184 @@
+/* screen - desktop-2 */
+
+.desktop-2 {
+  align-items: flex-start;
+  background-color: var(--midnight-2);
+  border: 1px none;
+  display: flex;
+  height: 785px;
+  overflow: hidden;
+  width: 1440px;
+}
+
+.desktop-2 .overlap-group4 {
+  height: 1402px;
+  margin-left: -196px;
+  margin-top: -171px;
+  position: relative;
+  width: 2182px;
+}
+
+.desktop-2 .ellipse-2 {
+  background-color: var(--chetwode-blue-2);
+  border-radius: 507px/272.5px;
+  height: 545px;
+  left: 0;
+  top: 0;
+  width: 1014px;
+}
+
+.desktop-2 .ellipse-1 {
+  background-color: var(--aqua-island);
+  border-radius: 353px/430px;
+  height: 860px;
+  left: 1476px;
+  top: 542px;
+  width: 706px;
+}
+
+.desktop-2 .screenshot__72_-removebg-1 {
+  height: 378px;
+  left: 294px;
+  object-fit: cover;
+  position: absolute;
+  top: 356px;
+  width: 450px;
+}
+
+.desktop-2 .rectangle-30 {
+  background-color: #8080d738;
+  border: 1px solid;
+  border-color: var(--white);
+  border-radius: 100px;
+  height: 561px;
+  left: 955px;
+  position: absolute;
+  top: 301px;
+  width: 539px;
+}
+
+.desktop-2 .group-51 {
+  flex-direction: column;
+  left: 999px;
+  min-height: 366px;
+  position: absolute;
+  top: 393px;
+  width: 454px;
+}
+
+.desktop-2 .title {
+  align-self: center;
+  letter-spacing: 0;
+  line-height: 47px;
+  margin-bottom: -12px;
+  margin-right: 3.0px;
+  min-height: 35px;
+  white-space: nowrap;
+  width: 149px;
+}
+
+.desktop-2 .overlap-group2 {
+  align-items: flex-start;
+  background-color: var(--alto);
+  border: 1px solid;
+  border-color: var(--white);
+  border-radius: 83px;
+  box-shadow: 0px 4px 4px #00000040;
+  display: flex;
+  height: 51px;
+  justify-content: flex-end;
+  margin-top: 66px;
+  min-width: 450px;
+  padding: 10px 26px;
+}
+
+.desktop-2 .username-or-email {
+  background-color: transparent;
+  border: 0;
+  height: 21px;
+  letter-spacing: 0;
+  line-height: 31px;
+  padding: 0;
+  white-space: nowrap;
+  width: 397px;
+}
+
+.desktop-2 .username-or-email::placeholder {
+  color: #000f395c;
+}
+
+.desktop-2 .overlap-group3 {
+  align-items: flex-start;
+  background-color: var(--alto);
+  border: 1px solid;
+  border-color: var(--white);
+  border-radius: 83px;
+  box-shadow: 0px 4px 4px #00000040;
+  display: flex;
+  height: 51px;
+  justify-content: flex-end;
+  margin-top: 37px;
+  min-width: 450px;
+  padding: 10px 26px;
+}
+
+.desktop-2 .forgot-password {
+  color: var(--white);
+  font-family: var(--font-family-outfit);
+  font-size: var(--font-size-xs);
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 27.5px;
+  margin-left: 22px;
+  margin-top: 14px;
+  min-height: 28px;
+  min-width: 179px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.desktop-2 .group-container {
+  align-self: flex-end;
+  gap: 32px;
+  margin-right: 9px;
+  margin-top: 33px;
+  min-width: 410px;
+}
+
+.desktop-2 .group-4 {
+  cursor: pointer;
+  min-width: 189px;
+}
+
+.desktop-2 .overlap-group {
+  align-items: center;
+  background-color: var(--chetwode-blue);
+  border-radius: 83px;
+  display: flex;
+  height: 51px;
+  justify-content: flex-end;
+  min-width: 187px;
+  padding: 0 56px;
+}
+
+.desktop-2 .overlap-group1 {
+  align-items: flex-start;
+  border: 1px solid;
+  border-color: #84cecf;
+  border-radius: 83px;
+  display: flex;
+  height: 51px;
+  min-width: 187px;
+  padding: 11px 43px;
+}
+
+.desktop-2 .sign-up {
+  letter-spacing: 2.00px;
+  line-height: 27.5px;
+  white-space: nowrap;
+}
+
+.desktop-2 .group {
+  align-items: flex-start;
+  display: flex;
+}

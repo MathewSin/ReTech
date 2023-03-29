@@ -1,0 +1,59 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Outfit:400,700,600|Roboto:400,700,800");
+/* The following line is used to measure usage of this code in production. For more info see our usage billing page */
+@import url("https://px.animaapp.com/6423bbdea27b9e628500a8d2.6423bbdf925176eaa62ceb92.BOt7j8R.hcp.png");
+
+
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+input:focus {
+  outline: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.login {
+  letter-spacing: 2.00px;
+  line-height: 27.5px;
+  white-space: nowrap;
+  width: 74px;
+}
+
+.password {
+  background-color: transparent;
+  border: 0;
+  height: 21px;
+  letter-spacing: 0;
+  line-height: 31px;
+  padding: 0;
+  white-space: nowrap;
+  width: 397px;
+}
+
+.password::placeholder {
+  color: #000f395c;
+}
+
+.ellipse {
+  filter: blur(305px);;
+  position: absolute;
+}

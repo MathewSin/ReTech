@@ -1,0 +1,69 @@
+:root { 
+  --alto: #d9d9d9;
+  --aqua-island: #aad9d9cc;
+  --black: #000000;
+  --chetwode-blue: #8f8fdb;
+  --chetwode-blue-2: #8080d7cc;
+  --deep-cove: #081340;
+  --midnight: #000f3999;
+  --midnight-2: #000f39;
+  --white: #ffffff;
+ 
+  --font-size-l: 36px;
+  --font-size-m: 20px;
+  --font-size-s: 18px;
+  --font-size-xl: 47px;
+  --font-size-xs: 17px;
+  --font-size-xxl: 64px;
+  --font-size-xxs: 16px;
+ 
+  --font-family-outfit: "Outfit", Helvetica;
+  --font-family-roboto: "Roboto", Helvetica;
+}
+.outfit-semi-bold-white-20px {
+  color: var(--white);
+  font-family: var(--font-family-outfit);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.roboto-bold-midnight-16px {
+  color: var(--midnight);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.outfit-bold-white-20px {
+  color: var(--white);
+  font-family: var(--font-family-outfit);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.roboto-bold-white-16px {
+  color: var(--white);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.roboto-bold-white-47px {
+  color: var(--white);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.outfit-normal-white-20px {
+  color: var(--white);
+  font-family: var(--font-family-outfit);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}

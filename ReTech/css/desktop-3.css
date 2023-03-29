@@ -1,0 +1,289 @@
+/* screen - desktop-3 */
+
+.desktop-3 {
+  align-items: flex-start;
+  background-color: var(--midnight-2);
+  border: 1px none;
+  display: flex;
+  height: 1095px;
+  overflow: hidden;
+  width: 1440px;
+}
+
+.desktop-3 .overlap-group7 {
+  height: 1402px;
+  margin-left: -196px;
+  margin-top: -171px;
+  position: relative;
+  width: 2182px;
+}
+
+.desktop-3 .ellipse-2 {
+  background-color: var(--chetwode-blue-2);
+  border-radius: 507px/272.5px;
+  height: 545px;
+  left: 0;
+  top: 0;
+  width: 1014px;
+}
+
+.desktop-3 .ellipse-1 {
+  background-color: var(--aqua-island);
+  border-radius: 353px/430px;
+  height: 860px;
+  left: 1476px;
+  top: 542px;
+  width: 706px;
+}
+
+.desktop-3 .screenshot__72_-removebg-1 {
+  height: 421px;
+  left: 259px;
+  object-fit: cover;
+  position: absolute;
+  top: 448px;
+  width: 496px;
+}
+
+.desktop-3 .rectangle-30 {
+  background-color: #8080d738;
+  border: 1px solid;
+  border-color: var(--white);
+  border-radius: 100px;
+  height: 855px;
+  left: 955px;
+  position: absolute;
+  top: 301px;
+  width: 539px;
+}
+
+.desktop-3 .sign-up {
+  left: 1132px;
+  letter-spacing: 0;
+  line-height: 47px;
+  position: absolute;
+  top: 355px;
+  white-space: nowrap;
+  width: 186px;
+}
+
+.desktop-3 .group-47 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 51px;
+  left: 1066px;
+  min-width: 320px;
+  position: absolute;
+  top: 989px;
+}
+
+.desktop-3 .overlap-group {
+  align-items: center;
+  background-color: var(--chetwode-blue);
+  border-radius: 83px;
+  display: flex;
+  height: 51px;
+  justify-content: flex-end;
+  min-width: 318px;
+  padding: 0 56px;
+}
+
+.desktop-3 .create-account {
+  letter-spacing: 2.00px;
+  line-height: 27.5px;
+  white-space: nowrap;
+  width: 204px;
+}
+
+.desktop-3 .already-have-an-account-login-here {
+  color: var(--white);
+  cursor: pointer;
+  font-family: var(--font-family-outfit);
+  font-size: var(--font-size-xs);
+  font-weight: 700;
+  left: 1047px;
+  letter-spacing: 0;
+  line-height: 27.5px;
+  position: absolute;
+  text-align: center;
+  top: 1076px;
+  white-space: nowrap;
+}
+
+.desktop-3 .overlap-group1 {
+  align-items: flex-start;
+  background-color: var(--alto);
+  border: 1px solid;
+  border-color: var(--white);
+  border-radius: 83px;
+  box-shadow: 0px 4px 4px #00000040;
+  display: flex;
+  height: 51px;
+  justify-content: flex-end;
+  left: 1000px;
+  min-width: 450px;
+  padding: 10px 26px;
+  position: absolute;
+  top: 461px;
+}
+
+.desktop-3 .full-name {
+  background-color: transparent;
+  border: 0;
+  height: 21px;
+  letter-spacing: 0;
+  line-height: 31px;
+  padding: 0;
+  white-space: nowrap;
+  width: 397px;
+}
+
+.desktop-3 .full-name::placeholder {
+  color: #000f395c;
+}
+
+.desktop-3 .overlap-group2 {
+  align-items: flex-start;
+  background-color: var(--alto);
+  border: 1px solid;
+  border-color: var(--white);
+  border-radius: 83px;
+  box-shadow: 0px 4px 4px #00000040;
+  display: flex;
+  height: 51px;
+  justify-content: flex-end;
+  left: 1000px;
+  min-width: 450px;
+  padding: 10px 26px;
+  position: absolute;
+  top: 549px;
+}
+
+.desktop-3 .email {
+  background-color: transparent;
+  border: 0;
+  height: 21px;
+  letter-spacing: 0;
+  line-height: 31px;
+  padding: 0;
+  white-space: nowrap;
+  width: 397px;
+}
+
+.desktop-3 .email::placeholder {
+  color: #000f395c;
+}
+
+.desktop-3 .overlap-group3 {
+  align-items: flex-start;
+  background-color: var(--alto);
+  border: 1px solid;
+  border-color: var(--white);
+  border-radius: 83px;
+  box-shadow: 0px 4px 4px #00000040;
+  display: flex;
+  height: 51px;
+  justify-content: flex-end;
+  left: 1000px;
+  min-width: 450px;
+  padding: 10px 26px;
+  position: absolute;
+  top: 637px;
+}
+
+.desktop-3 .phone-number {
+  background-color: transparent;
+  border: 0;
+  height: 21px;
+  letter-spacing: 0;
+  line-height: 31px;
+  padding: 0;
+  white-space: nowrap;
+  width: 397px;
+}
+
+.desktop-3 .phone-number::placeholder {
+  color: #000f395c;
+}
+
+.desktop-3 .overlap-group4 {
+  align-items: flex-start;
+  background-color: var(--alto);
+  border: 1px solid;
+  border-color: var(--white);
+  border-radius: 83px;
+  box-shadow: 0px 4px 4px #00000040;
+  display: flex;
+  height: 51px;
+  justify-content: flex-end;
+  left: 1000px;
+  min-width: 450px;
+  padding: 10px 26px;
+  position: absolute;
+  top: 725px;
+}
+
+.desktop-3 .city {
+  background-color: transparent;
+  border: 0;
+  height: 21px;
+  letter-spacing: 0;
+  line-height: 31px;
+  padding: 0;
+  white-space: nowrap;
+  width: 397px;
+}
+
+.desktop-3 .city::placeholder {
+  color: #000f395c;
+}
+
+.desktop-3 .overlap-group5 {
+  align-items: flex-start;
+  background-color: var(--alto);
+  border: 1px solid;
+  border-color: var(--white);
+  border-radius: 83px;
+  box-shadow: 0px 4px 4px #00000040;
+  display: flex;
+  height: 51px;
+  justify-content: flex-end;
+  left: 1000px;
+  min-width: 450px;
+  padding: 10px 26px;
+  position: absolute;
+  top: 813px;
+}
+
+.desktop-3 .overlap-group6 {
+  align-items: flex-start;
+  background-color: var(--alto);
+  border: 1px solid;
+  border-color: var(--white);
+  border-radius: 83px;
+  box-shadow: 0px 4px 4px #00000040;
+  display: flex;
+  height: 51px;
+  justify-content: flex-end;
+  left: 1000px;
+  min-width: 450px;
+  padding: 10px 26px;
+  position: absolute;
+  top: 901px;
+}
+
+.desktop-3 .confirm-password {
+  background-color: transparent;
+  border: 0;
+  height: 21px;
+  letter-spacing: 0;
+  line-height: 31px;
+  padding: 0;
+  white-space: nowrap;
+  width: 397px;
+}
+
+.desktop-3 .confirm-password::placeholder {
+  color: #000f395c;
+}

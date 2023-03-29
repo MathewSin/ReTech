@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <!--<meta name=description content="This site was generated with Anima. www.animaapp.com"/>-->
+    <!-- <link rel="shortcut icon" type=image/png href="https://animaproject.s3.amazonaws.com/home/favicon.png" /> -->
+    <meta name="viewport" content="width=1440, maximum-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="css/desktop-3.css" />
+    <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
+    <link rel="stylesheet" type="text/css" href="css/globals.css" />
+  </head>
+  <body style="margin: 0; background: #000f39">
+    <input type="hidden" id="anPageName" name="page" value="desktop-3" />
+    <div class="container-center-horizontal">
+      <form class="desktop-3 screen" name="form2" action="form2" method="post">
+        <div class="overlap-group7">
+          <div class="ellipse-2 ellipse"></div>
+          <div class="ellipse-1 ellipse"></div>
+          <img
+            class="screenshot__72_-removebg-1"
+            src="img/screenshot--72--removebg-1@2x.png"
+            alt="Screenshot__72_-removebg 1"
+          />
+          <div class="rectangle-30"></div>
+          <h1 class="sign-up roboto-bold-white-47px">Sign Up</h1>
+          <a href="javascript:SubmitForm('form2')">
+            <div class="group-47">
+              <div class="overlap-group">
+                <div class="create-account outfit-semi-bold-white-20px">CREATE ACCOUNT</div>
+              </div>
+            </div></a
+          ><a href="desktop-2.html"
+            ><p class="already-have-an-account-login-here">ALREADY HAVE AN ACCOUNT? LOGIN HERE</p>
+          </a>
+          <div class="overlap-group1">
+            <input
+              class="full-name roboto-bold-midnight-16px"
+              name="fullname"
+              placeholder="Full Name"
+              type="text"
+              required
+            />
+          </div>
+          <div class="overlap-group2">
+            <input class="email roboto-bold-midnight-16px" name="email" placeholder="Email" type="email" required />
+          </div>
+          <div class="overlap-group3">
+            <input
+              class="phone-number roboto-bold-midnight-16px"
+              name="phonenumber"
+              placeholder="Phone Number"
+              type="number"
+              required
+            />
+          </div>
+          <div class="overlap-group4">
+            <input class="city roboto-bold-midnight-16px" name="city" placeholder="City" type="text" required />
+          </div>
+          <div class="overlap-group5">
+            <input
+              class="password roboto-bold-midnight-16px"
+              name="password"
+              placeholder="Password"
+              type="password"
+              required
+            />
+          </div>
+          <div class="overlap-group6">
+            <input
+              class="confirm-password roboto-bold-midnight-16px"
+              name="confirmpassword"
+              placeholder="Confirm Password"
+              type="password"
+              required
+            />
+          </div>
+        </div>
+      </form>
+    </div>
+    <script>
+      /* Copyright (c) 2016 Tobias Buschor https://goo.gl/gl0mbf | MIT License https://goo.gl/HgajeK */
+
+      if (!HTMLFormElement.prototype.reportValidity) {
+        HTMLFormElement.prototype.reportValidity = function () {
+          if (this.checkValidity()) return true;
+          var btn = document.createElement("button");
+          this.appendChild(btn);
+          btn.click();
+          this.removeChild(btn);
+          return false;
+        };
+      }
+
+      function SubmitForm(form_name) {
+        var form = document.getElementsByName(form_name)[0];
+        if (form.reportValidity()) {
+          form.submit();
+          if (window.submitted) window.submitted();
+        }
+      }
+    </script>
+  </body>
+</html>
